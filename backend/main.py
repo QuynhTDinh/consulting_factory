@@ -10,9 +10,17 @@ load_dotenv(dotenv_path="backend/.env")
 app = FastAPI()
 
 # Configure CORS for frontend access
+# CORS Configuration
+origins = [
+    "http://localhost:5173",
+    "http://localhost:3000",
+    "https://consulting-factory.vercel.app",
+    "https://consulting-factory-git-main-quynhtdinhs-projects.vercel.app"
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:5174"],  # Allow Vite dev server
+    allow_origins=origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
