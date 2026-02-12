@@ -1,0 +1,79 @@
+{
+    "id": "insight_c1_data_interpretation",
+    "title": "Module C1: Data - Doing - Interpretation",
+    "domain": "Customer_Understanding",
+    "level": "Advanced",
+    "description": "Nền tảng của Insight là sự phân biệt rạch ròi giữa Dữ liệu quan sát được (Data/Doing) và Sự suy diễn (Interpretation). (Nguồn: Nielsen Norman Group, IDEO).",
+    "concepts": [
+        {
+            "id": "observation_vs_inference",
+            "name": "Observation vs. Inference (Quan sát vs Suy diễn)",
+            "definition": "Quan sát là ghi nhận thực tế khách quan (những gì nhìn thấy/nghe thấy). Suy diễn là gán ý nghĩa cho quan sát đó.",
+            "misconceptions": [
+                "Ghi 'Khách hàng bối rối' là quan sát. (Sai. Đó là suy diễn. Quan sát là 'Khách hàng nhíu mày và click chuột 3 lần').",
+                "Dữ liệu (Data) không biết nói dối. (Sai. Dữ liệu thiếu bối cảnh sẽ dẫn đến suy diễn sai)."
+            ],
+            "examples": [
+                "Quan sát: Khách hàng dừng lại ở trang giá 30 giây. Suy diễn A: Họ thấy đắt. Suy diễn B: Mạng lag."
+            ]
+        },
+        {
+            "id": "triangulation",
+            "name": "Triangulation (Tam giác lượng)",
+            "definition": "Kỹ thuật kiểm chứng Insight bằng cách đối chiếu 3 nguồn: What People Say (Lời nói), What People Do (Hành vi), và Data (Dữ liệu định lượng).",
+            "examples": [
+                "Say: 'Tôi thích tính năng này'. Do: Không bao giờ bấm vào nó. Data: Tỷ lệ thoát trang cao -> Kết luận: Họ chỉ nói xã giao (Social Desirability Bias)."
+            ]
+        }
+    ],
+    "principles": [
+        {
+            "id": "p_evidence_rule",
+            "statement": "Luật Bằng Chứng (The Evidence Rule)",
+            "explanation": "Nếu bạn không tận mắt thấy, tận tai nghe, hoặc đo lường được, thì đó là Suy diễn (Inference), không phải Sự thật (Fact).",
+            "application": "Trong báo cáo, hãy chia 2 cột: 'Sự kiện' và 'Nhận định'. Đừng trộn lẫn."
+        },
+        {
+            "id": "p_verbs_over_adjectives",
+            "statement": "Động từ hơn Tính từ",
+            "explanation": "Ghi chép hành vi bằng động từ (click, scroll, thở dài) thay vì tính từ mô tả trạng thái (vui, buồn, chán).",
+            "application": "Thay vì ghi 'Khách hàng thích thú', hãy ghi 'Khách hàng mỉm cười và rướn người về phía màn hình'."
+        }
+    ],
+    "assessment": [
+        {
+            "question": "Câu nào sau đây là một QUAN SÁT (Observation) chuẩn mực?",
+            "options": [
+                "Khách hàng cảm thấy khó chịu vì nút mua hàng quá nhỏ.",
+                "Khách hàng bấm vào nút mua hàng 3 lần nhưng không có phản hồi, sau đó toát mồ hôi.",
+                "Khách hàng nghĩ rằng trang web này bị lỗi."
+            ],
+            "correct_index": 1,
+            "explanation": "Câu 2 mô tả hành động vật lý (bấm 3 lần) và hiện tượng sinh lý (toát mồ hôi). Câu 1 (khó chịu) và 3 (nghĩ rằng) là suy diễn về trạng thái nội tâm.",
+            "difficulty": "Medium"
+        },
+        {
+            "question": "Tại sao phải dùng Triangulation (Say - Do - Data)?",
+            "options": [
+                "Để có nhiều dữ liệu hơn cho báo cáo dài hơn.",
+                "Để loại bỏ sự sai lệch do con người thường nói khác với làm (Say/Do Gap).",
+                "Để chứng minh khách hàng luôn nói dối."
+            ],
+            "correct_index": 1,
+            "explanation": "Con người thường không cố ý nói dối, nhưng họ thường không ý thức được hành vi của mình hoặc muốn giữ hình ảnh đẹp (Social Bias). Triangulation giúp tìm ra sự thật nằm giữa các nguồn tin.",
+            "difficulty": "Easy"
+        },
+        {
+            "question": "Bạn thấy User vào trang chủ rồi thoát ra ngay lập tức (Bounce Rate 100%). Suy diễn nào là RỦI RO nhất?",
+            "options": [
+                "Họ vào nhầm trang.",
+                "Nội dung trang chủ không hấp dẫn.",
+                "Kết luận ngay là 'Website dở tệ' mà không kiểm tra xem họ đến từ nguồn nào (Context).",
+                "Có thể do trang load quá chậm."
+            ],
+            "correct_index": 2,
+            "explanation": "Kết luận vội vã (Jumping to conclusion) mà thiếu Context (ví dụ: họ bấm nhầm quảng cáo) là lỗi tư duy lớn nhất của người làm Insight.",
+            "difficulty": "Hard"
+        }
+    ]
+}

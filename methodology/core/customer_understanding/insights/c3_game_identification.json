@@ -1,0 +1,78 @@
+{
+    "id": "insight_c3_game_identification",
+    "title": "Module C3: Game Identification (Transactional Analysis)",
+    "domain": "Customer_Understanding",
+    "level": "Expert",
+    "description": "Nhận diện các 'Trò chơi tâm lý' (Psychological Games) mà khách hàng (và cả người bán) vô thức tham gia, dẫn đến kết cục 'Lose-Lose'. (Nguồn: Eric Berne - Games People Play, Harvard Business Review).",
+    "concepts": [
+        {
+            "id": "game_definition",
+            "name": "The Game (Trò chơi)",
+            "definition": "Một chuỗi các giao tiếp có kịch bản sẵn, ẩn chứa động cơ ngầm, và luôn kết thúc bằng một cảm xúc tiêu cực quen thuộc (Payoff) cho cả hai bên.",
+            "misconceptions": [
+                "Khách hàng cố tình chơi khăm. (Sai. Đa phần là vô thức để thỏa mãn nhu cầu cảm xúc lệch lạc).",
+                "Nếu chiều khách hàng, game sẽ dừng. (Sai. Càng chiều, game càng lặp lại mạnh hơn)."
+            ]
+        },
+        {
+            "id": "drama_triangle",
+            "name": "The Drama Triangle (Tam giác kịch tính)",
+            "definition": "Mô hình 3 vai diễn chính trong mọi Game: Kẻ Bắt Nạt (Persecutor), Nạn Nhân (Victim), và Người Cứu Hộ (Rescuer).",
+            "examples": [
+                "Persecutor: 'Tại sao sản phẩm của bên em tệ thế?' (Chỉ trích áp đặt).",
+                "Victim: 'Tôi không rành công nghệ đâu, bên em làm hết đi.' (Giả vờ bất lực).",
+                "Rescuer: 'Để em làm giúp anh, không tính phí đâu.' (Nhiệt tình thái quá -> dẫn đến oán trách sau này)."
+            ]
+        }
+    ],
+    "principles": [
+        {
+            "id": "p_stop_the_game",
+            "statement": "Đừng nhận vai diễn (Don't take the role)",
+            "explanation": "Khi khách hàng mời bạn vào vai Rescuer (bằng cách đóng vai Victim), hãy từ chối nhẹ nhàng bằng cách trả họ về trạng thái Người lớn (Adult).",
+            "application": "Khách: 'Anh chả hiểu gì cả, em làm hộ anh đi.' -> Bạn: 'Dạ, để dự án chạy được thì cần anh duyệt phần này. Em sẽ hướng dẫn, nhưng anh là người quyết định cuối cùng.'"
+        },
+        {
+            "id": "p_cross_transaction",
+            "statement": "Bẻ gãy giao tiếp (Cross Transaction)",
+            "explanation": "Nếu họ nói chuyện bằng cảm xúc (Child/Parent), hãy trả lời bằng dữ liệu và logic (Adult). Đừng phản ứng lại bằng cảm xúc tương tự.",
+            "application": "Khách: 'Giá bên em đắt cắt cổ!' (Parent) -> Bạn: 'Dạ, mình so sánh chi tiết cấu hình với bên A nhé, để xem sự chênh lệch nằm ở đâu.' (Adult)."
+        }
+    ],
+    "assessment": [
+        {
+            "question": "Khách hàng liên tục than phiền về khó khăn, nhưng khi bạn đưa giải pháp thì họ đều nói 'Ừ, nhưng mà...' (Yes, But...). Họ đang chơi game gì?",
+            "options": [
+                "Họ thực sự bế tắc và cần giải pháp tốt hơn.",
+                "Game 'Why Don't You - Yes But'. Mục đích là để chứng minh bạn không thể giúp được họ (để họ tiếp tục than phiền).",
+                "Họ đang thử thách kiên nhẫn của bạn."
+            ],
+            "correct_index": 1,
+            "explanation": "Đây là game kinh điển nhất. Payoff của họ là sự thỏa mãn khi thấy chuyên gia bó tay, xác nhận niềm tin 'Vấn đề của tôi là vô phương cứu chữa'.",
+            "difficulty": "Medium"
+        },
+        {
+            "question": "Khi khách hàng đóng vai 'Nạn nhân' (Victim) yếu đuối, người bán hàng thiếu kinh nghiệm thường mắc bẫy nhảy vào vai nào?",
+            "options": [
+                "Kẻ bắt nạt (Persecutor) - mắng khách hàng.",
+                "Người cứu hộ (Rescuer) - làm thay khách hàng quá mức.",
+                "Khán giả (Observer) - đứng nhìn."
+            ],
+            "correct_index": 1,
+            "explanation": "Người bán hàng thường muốn giúp đỡ (Rescuer), nhưng khi làm thay quá nhiều mà không được ghi nhận, họ sẽ chuyển thành Kẻ bắt nạt (oán trách khách hàng) hoặc Nạn nhân (than thân trách phận).",
+            "difficulty": "Easy"
+        },
+        {
+            "question": "Cách tốt nhất để thoát khỏi Tam giác kịch tính (Drama Triangle) là gì?",
+            "options": [
+                "Chuyển sang vai Kẻ bắt nạt để áp chế khách hàng.",
+                "Nghỉ chơi, không bán nữa.",
+                "Giữ vững trạng thái 'Người lớn' (Adult) - khách quan, logic, tôn trọng ranh giới trách nhiệm.",
+                "Chiều theo ý khách hàng để họ vui."
+            ],
+            "correct_index": 2,
+            "explanation": "Chỉ có trạng thái Adult (dựa trên thực tế, không cảm xúc lệch lạc) mới không bị cuốn vào các vai diễn kịch tính. Đây là cách 'Stop the Game' hiệu quả nhất.",
+            "difficulty": "Hard"
+        }
+    ]
+}

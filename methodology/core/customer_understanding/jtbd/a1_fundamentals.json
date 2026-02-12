@@ -1,0 +1,79 @@
+{
+    "id": "jtbd_fundamentals",
+    "title": "Module A1: JTBD Fundamentals",
+    "domain": "Customer_Understanding",
+    "level": "Fundamental",
+    "description": "Nền tảng tư duy Jobs To Be Done: Khách hàng không mua sản phẩm, họ 'thuê' sản phẩm để hoàn thành một công việc nào đó.",
+    "concepts": [
+        {
+            "id": "hiring_metaphor",
+            "name": "The Hiring Metaphor",
+            "definition": "Khách hàng 'thuê' (hire) một sản phẩm/dịch vụ để giải quyết vấn đề trong một hoàn cảnh cụ thể. Nếu sản phẩm làm tốt, họ thuê tiếp. Nếu không, họ 'sa thải' (fire) và tìm cái khác.",
+            "misconceptions": [
+                "Khách hàng mua sản phẩm vì họ thuộc phân khúc nhân khẩu học đó (Sai. Hoàn cảnh > Nhân khẩu học).",
+                "Có thể tạo ra nhu cầu (Sai. Job đã tồn tại sẵn, chỉ có giải pháp là mới)."
+            ],
+            "examples": [
+                "Người ta không muốn mua cái khoan 1 phân, họ muốn cái lỗ 1 phân.",
+                "Người ta thuê Milkshake buổi sáng để 'giữ mồm miệng bận rộn' trên đường đi làm (không phải vì đói)."
+            ]
+        },
+        {
+            "id": "job_context",
+            "name": "Job Context",
+            "definition": "Hoàn cảnh cụ thể khi nhu cầu phát sinh. Không có Job nào tồn tại tách rời hoàn cảnh.",
+            "examples": [
+                "'Khi tôi đang lái xe đi làm buổi sáng...' (Context) -> Tôi cần thứ gì đó dễ cầm, lâu hết (Job)."
+            ]
+        }
+    ],
+    "principles": [
+        {
+            "id": "p_market_is_job",
+            "statement": "Thị trường là Job, không phải Sản phẩm",
+            "explanation": "Đừng định nghĩa thị trường bằng sản phẩm (Thị trường đĩa than). Hãy định nghĩa bằng Job (Thị trường thưởng thức âm nhạc tại nhà).",
+            "application": "Khi nghiên cứu đối thủ, hãy nhìn rộng ra các giải pháp thay thế (Netflix cạnh tranh với Giấc ngủ, Fortnite cạnh tranh với Netflix)."
+        },
+        {
+            "id": "p_switch_dynamics",
+            "statement": "Quy luật Thay thế (The Switch)",
+            "explanation": "Để 'thuê' giải pháp mới, khách hàng phải 'sa thải' giải pháp cũ. Luôn có sự giằng co giữa 'Sức hút cái mới' và 'Thói quen cái cũ'.",
+            "application": "Muốn khách hàng mua, không chỉ cần tính năng hay, mà còn phải giảm bớt lo lắng và thói quen cũ của họ."
+        }
+    ],
+    "assessment": [
+        {
+            "question": "Theo tư duy JTBD, khách hàng mua một khóa học Tiếng Anh đắt tiền chủ yếu vì lý do gì?",
+            "options": [
+                "Vì họ là nam giới, 25-35 tuổi, sống ở Hà Nội (Demographics).",
+                "Vì họ muốn nâng cao kỹ năng ngôn ngữ (Functional Need).",
+                "Vì họ muốn có cơ hội thăng tiến và cảm thấy tự tin hơn khi họp với sếp Tây (Progress/Job)."
+            ],
+            "correct_index": 2,
+            "explanation": "JTBD tập trung vào 'Sự tiến bộ' (Progress) mà khách hàng mong muốn đạt được trong cuộc sống, không chỉ là chức năng sản phẩm hay đặc điểm nhân khẩu học.",
+            "difficulty": "Easy"
+        },
+        {
+            "question": "Đối thủ cạnh tranh thực sự của một hãng Hàng không giá rẻ là ai? (Theo tư duy JTBD)",
+            "options": [
+                "Các hãng hàng không giá rẻ khác.",
+                "Hãng hàng không cao cấp (Vietnam Airlines).",
+                "Xe khách, Tàu hỏa và Zoom/Google Meet."
+            ],
+            "correct_index": 2,
+            "explanation": "Nếu Job là 'Di chuyển giá rẻ', đối thủ là Xe khách. Nếu Job là 'Họp nhanh mà không cần đi lại', đối thủ là Zoom. JTBD mở rộng tầm nhìn về đối thủ cạnh tranh.",
+            "difficulty": "Medium"
+        },
+        {
+            "question": "Phát biểu nào sau đây là SAI về JTBD?",
+            "options": [
+                "Chúng ta có thể tạo ra Job mới cho khách hàng.",
+                "Job thường ổn định theo thời gian (Ông cha ta cũng có Job này, chỉ khác giải pháp).",
+                "Hoàn cảnh (Context) quan trọng hơn chân dung (Persona)."
+            ],
+            "correct_index": 0,
+            "explanation": "Job là những vấn đề cơ bản của con người (muốn an toàn, muốn kết nối, muốn giải trí...). Chúng ta không tạo ra Job, chúng ta chỉ tạo ra giải pháp tốt hơn cho Job đó.",
+            "difficulty": "Hard"
+        }
+    ]
+}

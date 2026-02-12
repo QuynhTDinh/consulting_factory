@@ -1,0 +1,91 @@
+{
+    "id": "empathy_map_basics_v2",
+    "title": "Module B1: Empathy Map Basics (Perspective Taking)",
+    "domain": "Customer_Understanding",
+    "level": "Fundamental",
+    "description": "Empathy Map không chỉ là công cụ thu thập dữ liệu, mà là bài tập 'Thay đổi điểm nhìn' (Perspective Taking) - đặt mình vào vị trí người khác để hiểu thế giới của họ. (Nguồn: Nielsen Norman Group, Dave Gray/XPLANE).",
+    "concepts": [
+        {
+            "id": "perspective_taking",
+            "name": "Perspective Taking (Thay đổi điểm nhìn)",
+            "definition": "Hành động chủ động gạt bỏ cái tôi và giả định cá nhân để nhìn thế giới qua lăng kính của người khác. Đây là mục đích cốt lõi của Empathy Map.",
+            "misconceptions": [
+                "Empathy Map là để liệt kê tính năng khách hàng muốn. (Sai. Nó là về trải nghiệm con người).",
+                "Có thể điền Empathy Map bằng cách ngồi đoán trong phòng lạnh. (Sai. Phải dựa trên dữ liệu quan sát thực tế)."
+            ],
+            "examples": [
+                "Thay vì nghĩ 'Khách hàng này khó tính', hãy thử đổi góc nhìn: 'Họ đang chịu áp lực gì từ sếp khiến họ phải soi kỹ như vậy?'"
+            ]
+        },
+        {
+            "id": "outside_world",
+            "name": "The Outside World (Thế giới bên ngoài)",
+            "definition": "Những gì khách hàng tiếp nhận và thể hiện ra bên ngoài. Là những thứ có thể quan sát khách quan.",
+            "examples": [
+                "WHO: Họ là ai? (Context)",
+                "SEE: Họ nhìn thấy gì mỗi ngày (Môi trường, quảng cáo, đồng nghiệp)?",
+                "HEAR: Họ nghe được gì (Lời đồn, chỉ đạo của sếp)?",
+                "SAY & DO: Họ nói và làm gì?"
+            ]
+        },
+        {
+            "id": "inside_mind",
+            "name": "The Inside Mind (Thế giới nội tâm)",
+            "definition": "Những gì diễn ra trong đầu khách hàng. Đây là nơi chứa Insight, nhưng không thể quan sát trực tiếp mà phải thấu cảm.",
+            "examples": [
+                "THINK & FEEL: Lo lắng, Ước mơ, Tính toán.",
+                "PAIN: Nỗi sợ, rào cản.",
+                "GAIN: Mong muốn, thành công."
+            ]
+        }
+    ],
+    "principles": [
+        {
+            "id": "p_ego_suspension",
+            "statement": "Tạm gác cái tôi (Set aside Ego)",
+            "explanation": "Để thấu cảm, bạn phải tạm thời quên đi vai trò 'Người bán hàng' hay 'Chuyên gia'. Bạn phải trở thành Họ.",
+            "application": "Đừng hỏi 'Làm sao để bán được hàng cho họ?'. Hãy hỏi 'Cuộc sống của họ đang diễn ra như thế nào?'"
+        },
+        {
+            "id": "p_outside_in_flow",
+            "statement": "Quy trình Từ Ngoài vào Trong",
+            "explanation": "Theo Dave Gray (2017): Hãy bắt đầu từ Goal, sau đó điền các ô Bên Ngoài (See, Hear, Say, Do), cuối cùng mới thâm nhập vào Bên Trong (Think, Feel).",
+            "application": "Đừng đoán mò cảm xúc ngay từ đầu. Hãy xây dựng bối cảnh thực tế trước."
+        }
+    ],
+    "assessment": [
+        {
+            "question": "Mục đích tối thượng của Empathy Map là gì?",
+            "options": [
+                "Để phân loại khách hàng vào các nhóm nhân khẩu học.",
+                "Để thực hành kỹ năng Perspective Taking - nhìn thế giới bằng đôi mắt của khách hàng.",
+                "Để tìm ra tính năng sản phẩm mà khách hàng sẽ mua."
+            ],
+            "correct_index": 1,
+            "explanation": "Theo NN/g và Dave Gray, Empathy Map là công cụ để rèn luyện tư duy thấu cảm, giúp team có chung một hình dung sống động về con người khách hàng.",
+            "difficulty": "Easy"
+        },
+        {
+            "question": "Theo quy trình cập nhật của Dave Gray, thứ tự điền Empathy Map nào là hợp lý nhất?",
+            "options": [
+                "Think & Feel trước, vì đó là quan trọng nhất.",
+                "Say & Do trước, vì đó là dữ liệu dễ thấy nhất.",
+                "Goal & Context trước, sau đó đến Thế giới bên ngoài (See, Hear...), cuối cùng mới đến Thế giới nội tâm (Think, Feel)."
+            ],
+            "correct_index": 2,
+            "explanation": "Đi từ ngoài vào trong giúp xây dựng bối cảnh vững chắc trước khi suy luận về nội tâm. Nếu nhảy vào Think/Feel ngay, ta dễ bị áp đặt định kiến chủ quan.",
+            "difficulty": "Hard"
+        },
+        {
+            "question": "Khi 'nhập vai' khách hàng để điền ô Think & Feel, câu hỏi nào giúp bạn 'gác bỏ cái tôi' tốt nhất?",
+            "options": [
+                "Nếu mình là họ, mình sẽ mua sản phẩm này vì cái gì?",
+                "Điều gì đang khiến họ mất ngủ đêm qua?",
+                "Họ có thích tính năng mới của mình không?"
+            ],
+            "correct_index": 1,
+            "explanation": "Câu 2 tập trung hoàn toàn vào nỗi đau/cuộc sống của họ. Câu 1 và 3 vẫn còn dính dáng đến sản phẩm/giải pháp của mình (Cái tôi người bán).",
+            "difficulty": "Medium"
+        }
+    ]
+}

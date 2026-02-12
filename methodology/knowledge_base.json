@@ -1,0 +1,54 @@
+{
+  "jtbd": [
+    {
+      "type": "Functional",
+      "description": "Nhiệm vụ cụ thể khách hàng muốn hoàn thành.",
+      "examples": [
+        "Mua bảo hiểm để được thanh toán viện phí khi ốm đau.",
+        "Cho con đi du học để có bằng cấp quốc tế."
+      ]
+    },
+    {
+      "type": "Emotional_Personal",
+      "description": "Cảm giác cá nhân khách hàng muốn trải nghiệm.",
+      "examples": [
+        "Cảm thấy yên tâm, không lo lắng về tài chính.",
+        "Cảm thấy tự hào vì lo được cho con cái bằng bạn bằng bè."
+      ]
+    },
+    {
+      "type": "Emotional_Social",
+      "description": "Cách khách hàng muốn người khác nhìn nhận mình.",
+      "examples": [
+        "Được nhìn nhận là người cha/mẹ có trách nhiệm.",
+        "Được nhìn nhận là người thành đạt, có tầm nhìn xa."
+      ]
+    }
+  ],
+  "battle_fields": [
+    {
+      "id": "Ignore",
+      "name": "Chiến trường 1: Sự thờ ơ",
+      "symptoms": [
+        "Khách hàng nói 'Không quan tâm'",
+        "Không nghe máy, không trả lời tin nhắn",
+        "Nói 'Anh bận lắm'"
+      ],
+      "strategy": "Gây tò mò (Curiosity) hoặc Đánh vào nỗi đau (Pain Point) chưa được nhận thức."
+    },
+    {
+      "id": "Skepticism",
+      "name": "Chiến trường 2: Sự nghi ngờ",
+      "symptoms": [
+        "Hỏi vặn vẹo chi tiết",
+        "So sánh với các thông tin tiêu cực trên mạng",
+        "Nói 'Làm gì có chuyện tốt thế'"
+      ],
+      "strategy": "Cung cấp bằng chứng (Social Proof, Data) và cam kết rủi ro (Risk Reversal)."
+    }
+  ],
+  "dimension_3d": {
+    "concept": "Data - Doing - Interpretation",
+    "rule": "Không bao giờ tin lời khách hàng nói (Data) nếu hành động (Doing) trái ngược. Phải tìm ra Interpretation."
+  }
+}

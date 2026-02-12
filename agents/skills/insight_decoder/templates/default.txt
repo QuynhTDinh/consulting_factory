@@ -1,0 +1,37 @@
+Bạn là chuyên gia phân tích Insight theo Framework JTBD (Jobs to be Done).
+Nhiệm vụ: Phân tích sâu động cơ hành động và mâu thuẫn nội tâm của khách hàng.
+
+Input Situation: "{input_text}"
+Context Game (Tham khảo): {context_game}
+
+Phân tích:
+1.  **Jobs Analysis**:
+    - Functional Job: Việc cụ thể họ muốn hoàn thành.
+    - Emotional Job: Cảm xúc họ muốn có hoặc muốn tránh.
+    - Social Job: Họ muốn người khác nhìn nhận mình như thế nào.
+
+2.  **Hidden Tension**: Mâu thuẫn nội tâm giữa mong muốn và rào cản (I want... but...).
+
+3.  **Insight Statement** (Theo cấu trúc 4 phần):
+    - Context: Bối cảnh xảy ra sự việc.
+    - Doing: Hành vi quan sát được.
+    - Tension: Mâu thuẫn nội tâm.
+    - Truth: Sự thật ngầm hiểu đằng sau (The Why).
+
+Output JSON Schema:
+{{
+    "decoder": {{
+        "jobs": {{
+            "functional": "...",
+            "emotional": "...",
+            "social": "..."
+        }},
+        "tension": "...",
+        "insight": {{
+            "context": "...",
+            "doing": "...",
+            "tension": "...",
+            "truth": "..."
+        }}
+    }}
+}}

@@ -1,0 +1,91 @@
+{
+    "id": "jtbd_analysis",
+    "title": "Module A2: JTBD Analysis (3 Dimensions)",
+    "domain": "Customer_Understanding",
+    "level": "Advanced",
+    "description": "Phân tích chiều sâu của một Job thông qua 3 lăng kính: Chức năng (Functional), Cảm xúc cá nhân (Personal Emotional), và Xã hội (Social).",
+    "concepts": [
+        {
+            "id": "dim_functional",
+            "name": "Functional Job (Việc chức năng)",
+            "definition": "Nhiệm vụ thực tế, khách quan mà khách hàng muốn hoàn thành.",
+            "misconceptions": [
+                "Chỉ tập trung vào Functional là đủ (Sai. B2B hay B2C đều có cảm xúc)."
+            ],
+            "examples": [
+                "Cắt cỏ.",
+                "Viết báo cáo.",
+                "Di chuyển từ A đến B."
+            ]
+        },
+        {
+            "id": "dim_emotional_personal",
+            "name": "Personal Emotional Job (Cảm xúc cá nhân)",
+            "definition": "Cảm giác mà khách hàng muốn có (hoặc muốn tránh) khi thực hiện công việc.",
+            "examples": [
+                "Cảm thấy an tâm.",
+                "Cảm thấy kiểm soát được tình hình.",
+                "Tránh cảm giác tội lỗi."
+            ]
+        },
+        {
+            "id": "dim_emotional_social",
+            "name": "Social Job (Cảm xúc xã hội)",
+            "definition": "Cách mà khách hàng muốn người khác nhìn nhận mình.",
+            "examples": [
+                "Được coi là chuyên nghiệp.",
+                "Được coi là người sành điệu.",
+                "Không muốn bị coi là kẻ lạc hậu."
+            ]
+        }
+    ],
+    "principles": [
+        {
+            "id": "p_emotional_driver",
+            "statement": "Cảm xúc lái hành vi, Lý trí biện minh",
+            "explanation": "Trong hầu hết các quyết định mua (đặc biệt là giá cao), Emotional và Social Job mới là động lực chính thúc đẩy hành động. Functional Job chỉ là điều kiện cần.",
+            "application": "Khi tư vấn, hãy đáp ứng Functional nhanh gọn, nhưng dành phần lớn thời gian để khai thác và thỏa mãn Emotional/Social."
+        },
+        {
+            "id": "p_complex_job",
+            "statement": "Một sản phẩm giải quyết đa tầng Job",
+            "explanation": "Khách hàng hiếm khi thuê sản phẩm chỉ vì 1 lý do. Nó là một gói (bundle) các Jobs.",
+            "application": "Phân tích đủ 3 tầng cho mọi khách hàng. Ví dụ: Mua iPhone (Functional: Gọi điện/App mượt; Emotional: Sướng/Thích đẹp; Social: Sang trọng/Bằng bạn bè)."
+        }
+    ],
+    "assessment": [
+        {
+            "question": "Một người đàn ông mua chiếc khoan xịn nhất cửa hàng dù anh ta chỉ dùng 1 năm 1 lần. Động lực Social Job có thể là gì?",
+            "options": [
+                "Anh ta muốn khoan lỗ nhanh và chính xác.",
+                "Anh ta muốn cảm thấy mình là một người thợ lành nghề (tự thỏa mãn).",
+                "Anh ta muốn vợ và hàng xóm nhìn thấy anh ta là người đàn ông trụ cột, biết sửa chữa đồ đạc trong nhà."
+            ],
+            "correct_index": 2,
+            "explanation": "Social Job liên quan đến cái nhìn của người khác (vợ, hàng xóm). Đáp án 2 là Personal Emotional.",
+            "difficulty": "Medium"
+        },
+        {
+            "question": "Trong bán hàng B2B (Doanh nghiệp), yếu tố 'Emotional Job' có tồn tại không?",
+            "options": [
+                "Không, B2B hoàn toàn dựa trên lý trí và số liệu (Functional).",
+                "Có, nhưng rất ít quan trọng.",
+                "Có, và rất quan trọng ('Nobody ever got fired for buying IBM' - Nỗi sợ rủi ro và mong muốn an toàn sự nghiệp)."
+            ],
+            "correct_index": 2,
+            "explanation": "Người ra quyết định B2B vẫn là con người. Họ có nỗi sợ bị sếp mắng (Personal Emotional) hoặc muốn được thăng chức (Social Job).",
+            "difficulty": "Hard"
+        },
+        {
+            "question": "Trường hợp nào dưới đây ưu tiên Functional Job lên hàng đầu?",
+            "options": [
+                "Mua túi xách Hermes.",
+                "Gọi xe cứu thương khi bị tai nạn.",
+                "Chọn trường mầm non quốc tế cho con."
+            ],
+            "correct_index": 1,
+            "explanation": "Trong tình huống khẩn cấp, mục tiêu duy nhất là giải quyết vấn đề (đến bệnh viện nhanh nhất). Các yếu tố cảm xúc/xã hội lúc này không quan trọng bằng hiệu quả chức năng.",
+            "difficulty": "Easy"
+        }
+    ]
+}

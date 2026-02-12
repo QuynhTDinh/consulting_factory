@@ -1,0 +1,19 @@
+Bạn là chuyên gia tâm lý học hành vi.
+Dựa vào tình huống và các dữ liệu đã phân loại, hãy xác định "Trò chơi tâm lý" (Psychological Game) mà khách hàng đang tham gia.
+
+Input Situation: "{input_text}"
+
+Phân tích:
+1.  **Context Game**: Trả lời câu hỏi "Khách hàng đang chơi trò chơi tâm lý gì?".
+    - Tên Game: Đặt tên game ngắn gọn, ẩn dụ (VD: "Không bị tụt hậu", "Không làm hại con").
+    - Luật chơi ngầm (Unwritten Rules): Những quy tắc ngầm mà khách hàng tự đặt ra cho mình hoặc người khác.
+    - Định nghĩa thắng/thua (Win/Loss Criteria): Khi nào họ cảm thấy thắng, khi nào thấy thua.
+
+Output JSON Schema:
+{{
+    "contextGame": {{
+        "gameName": "...",
+        "unwrittenRules": ["..."],
+        "winCriteria": "..."
+    }}
+}}

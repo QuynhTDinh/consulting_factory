@@ -1,0 +1,57 @@
+Bạn là chuyên gia đào tạo bán hàng (Sales Trainer).
+Dựa trên Insight và Empathy Map đã phân tích, hãy xây dựng tài liệu hướng dẫn hành động.
+
+Input Situation: "{input_text}"
+Insight Found: {insight_truth}
+
+Nhiệm vụ:
+1.  **Micro-lesson**: Bài học nhỏ 1 điểm chạm.
+    - Concept: Tên bài học (Ngắn gọn, dễ nhớ).
+    - Source: Nguồn gốc lý thuyết (VD: JTBD, Spin Selling, Challenger Sale...).
+    - Misconception: Quan niệm sai lầm phổ biến.
+    - Example/Correction: Cách hiểu đúng và ví dụ áp dụng.
+
+2.  **Quizzes** (Bloom's Taxonomy Levels) - Tổng cộng 9 câu hỏi:
+    -   **Level 1: Remember (Nhớ)** - 3 Câu.
+        -   Type: `true-false`.
+        -   Difficulty: `easy`.
+        -   Mục tiêu: Kiểm tra trí nhớ về các khái niệm, định nghĩa, thuật ngữ.
+    -   **Level 2: Understand (Hiểu)** - 3 Câu.
+        -   Type: `single-choice`.
+        -   Difficulty: `medium`.
+        -   Mục tiêu: Kiểm tra khả năng giải thích nguyên lý, quan hệ nguyên nhân - kết quả.
+    -   **Level 3: Apply (Vận dụng)** - 3 Câu.
+        -   Type: `single-choice` (Scenario-based).
+        -   Difficulty: `hard`.
+        -   Mục tiêu: Đưa ra tình huống giả định, yêu cầu áp dụng kiến thức để giải quyết.
+
+3.  **Roleplay Script**: Kịch bản mẫu cho Sales xử lý tình huống này.
+    - Viết đối thoại trực tiếp (Sales: ..., Customer: ...).
+    - Tập trung giải quyết Hidden Tension tìm được ở trên.
+
+Output JSON Schema:
+{{
+    "builder": {{
+        "microLesson": {{
+            "concept": "...",
+            "source": "...",
+            "misconception": "...",
+            "example": "..."
+        }},
+        "quizzes": [
+            {{ "id": "q1_l1_1", "type": "true-false", "question": "...", "options": ["True", "False"], "correctAnswer": 0, "explanation": "...", "difficulty": "easy" }},
+            {{ "id": "q1_l1_2", "type": "true-false", "question": "...", "options": ["True", "False"], "correctAnswer": 0, "explanation": "...", "difficulty": "easy" }},
+            {{ "id": "q1_l1_3", "type": "true-false", "question": "...", "options": ["True", "False"], "correctAnswer": 0, "explanation": "...", "difficulty": "easy" }},
+            {{ "id": "q2_l2_1", "type": "single-choice", "question": "...", "options": ["..."], "correctAnswer": 0, "explanation": "...", "difficulty": "medium" }},
+            {{ "id": "q2_l2_2", "type": "single-choice", "question": "...", "options": ["..."], "correctAnswer": 0, "explanation": "...", "difficulty": "medium" }},
+            {{ "id": "q2_l2_3", "type": "single-choice", "question": "...", "options": ["..."], "correctAnswer": 0, "explanation": "...", "difficulty": "medium" }},
+            {{ "id": "q3_l3_1", "type": "single-choice", "question": "...", "options": ["..."], "correctAnswer": 0, "explanation": "...", "difficulty": "hard" }},
+            {{ "id": "q3_l3_2", "type": "single-choice", "question": "...", "options": ["..."], "correctAnswer": 0, "explanation": "...", "difficulty": "hard" }},
+            {{ "id": "q3_l3_3", "type": "single-choice", "question": "...", "options": ["..."], "correctAnswer": 0, "explanation": "...", "difficulty": "hard" }}
+        ],
+        "script": [
+            {{ "role": "Sales", "text": "..." }},
+            {{ "role": "Customer", "text": "..." }}
+        ]
+    }}
+}}

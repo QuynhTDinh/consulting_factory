@@ -1,0 +1,20 @@
+{
+    "id": "SCAR_001_INSURANCE_TRUST",
+    "title": "Mất hợp đồng VIP vì quá vồn vã chốt sale",
+    "context": {
+        "industry": "Life Insurance",
+        "consultant_level": "Novice",
+        "customer_profile": "Chủ doanh nghiệp SME, nam, 45 tuổi, rất bận rộn.",
+        "touchpoint": "Meeting tại văn phòng khách hàng"
+    },
+    "myth": "Khách hàng đã đồng ý gặp tức là đã muốn mua, cần chốt nhanh để không tốn thời gian của họ.",
+    "action": "Ngay sau khi chào hỏi, tôi lấy bảng minh họa quyền lợi ra và thao thao bất tuyệt về gói bảo hiểm 1 tỷ đồng.",
+    "consequence": "Khách hàng nhìn đồng hồ liên tục, sau 10 phút thì nói 'Anh có việc gấp' và mời về. Sau đó không bao giờ bắt máy nữa.",
+    "pain_level": 4,
+    "reflection": "Đã bỏ qua bước 'Xây dựng niềm tin' (Battle Field 2). Nhảy thẳng vào Solution khi chưa hiểu Needs. Lẽ ra phải hỏi về doanh nghiệp của anh ấy trước để tạo kết nối.",
+    "tags": [
+        "Trust",
+        "Premature Closing",
+        "SME"
+    ]
+}

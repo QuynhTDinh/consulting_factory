@@ -1,0 +1,60 @@
+{
+    "id": "instructional_design_basics",
+    "title": "Module D1: Instructional Design Standard (Quiz & Assessment)",
+    "domain": "Education_Technology",
+    "level": "Fundamental",
+    "description": "Tiêu chuẩn thiết kế học liệu và bài kiểm tra đánh giá năng lực (Assessment). Dựa trên thang đo Bloom và nguyên tắc Gagne.",
+    "concepts": [
+        {
+            "id": "quiz_types",
+            "name": "Các loại hình Quiz chuẩn",
+            "definition": "Các định dạng câu hỏi dùng để đo lường mức độ hiểu (Knowledge) và vận dụng (Application).",
+            "misconceptions": [
+                "Quiz chỉ là trắc nghiệm A/B/C/D. (Sai. Còn có True/False, Điền khuyết, Ghép đôi...)",
+                "Câu hỏi càng khó càng tốt. (Sai. Câu hỏi phải đánh giá đúng mục tiêu, không đánh đố)."
+            ],
+            "examples": [
+                "Multiple Choice Question (MCQ): Chọn 1 phương án đúng nhất trong 4.",
+                "True/False: Xác định một phát biểu là Đúng hay Sai.",
+                "Fill-in-the-blank (Cloze): Điền từ khóa còn thiếu vào chỗ trống.",
+                "Matching: Ghép nối khái niệm cột A với định nghĩa cột B."
+            ]
+        },
+        {
+            "id": "distractor_quality",
+            "name": "Chất lượng phương án nhiễu (Distractor)",
+            "definition": "Trong câu hỏi trắc nghiệm, các phương án sai (Distractor) phải có tính hợp lý (Plausible) để bẫy những người không hiểu bài, chứ không được sai ngớ ngẩn.",
+            "examples": [
+                "Tốt: Phương án sai là một lỗi tư duy phổ biến (Common Misconception).",
+                "Tệ: Phương án sai là điều phi lý không ai chọn."
+            ]
+        }
+    ],
+    "principles": [
+        {
+            "id": "p_blooms_taxonomy",
+            "statement": "Thang đo Bloom (Bloom's Taxonomy)",
+            "explanation": "Câu hỏi phải được phân cấp từ thấp đến cao: Nhớ (Remember) -> Hiểu (Understand) -> Vận dụng (Apply) -> Phân tích (Analyze).",
+            "application": "Với nhân viên mới: Dùng câu hỏi Nhớ/Hiểu (True/False, Matching). Với nhân viên cũ: Dùng câu hỏi Vận dụng (Scenario-based MCQ)."
+        },
+        {
+            "id": "p_feedback_loop",
+            "statement": "Nguyên tắc Phản hồi (Feedback Loop)",
+            "explanation": "Quiz là công cụ học tập, không chỉ để chấm điểm. Mọi câu trả lời (kể cả sai) đều phải có giải thích (Feedback) ngay lập tức.",
+            "application": "Nếu chọn sai: Giải thích TẠI SAO sai và chỉ dẫn về kiến thức đúng."
+        }
+    ],
+    "assessment": [
+        {
+            "question": "Loại câu hỏi nào phù hợp nhất để kiểm tra khả năng 'Vận dụng' (Application) của nhân viên tư vấn?",
+            "options": [
+                "True/False (Đúng/Sai).",
+                "Scenario-based MCQ (Trắc nghiệm tình huống).",
+                "Fill-in-the-blank (Điền từ)."
+            ],
+            "correct_index": 1,
+            "explanation": "True/False thường chỉ kiểm tra trí nhớ. Scenario-based MCQ đặt người học vào tình huống thực tế phải ra quyết định, đo lường được khả năng vận dụng.",
+            "difficulty": "Medium"
+        }
+    ]
+}

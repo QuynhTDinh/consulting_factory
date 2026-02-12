@@ -1,0 +1,43 @@
+{
+  "id": "module_id_snake_case",
+  "title": "Module Title (Tên Module)",
+  "domain": "Domain_Name (VD: Customer_Understanding, Strategy, Leadership)",
+  "level": "Fundamental | Advanced | Expert",
+  "description": "Mô tả ngắn gọn về module này. Nó giải quyết vấn đề gì? Nguồn gốc từ đâu?",
+  "concepts": [
+    {
+      "id": "concept_id",
+      "name": "Tên Khái niệm",
+      "definition": "Định nghĩa chính xác, ngắn gọn.",
+      "misconceptions": [
+        "Hiểu lầm thường gặp 1.",
+        "Hiểu lầm thường gặp 2."
+      ],
+      "examples": [
+        "Ví dụ minh họa thực tế."
+      ]
+    }
+  ],
+  "principles": [
+    {
+      "id": "principle_id",
+      "name": "Tên Nguyên tắc/Quy luật",
+      "statement": "Phát biểu nguyên tắc (VD: 'Luật Bằng Chứng').",
+      "explanation": "Giải thích tại sao nguyên tắc này đúng/quan trọng.",
+      "application": "Cách áp dụng vào thực tế."
+    }
+  ],
+  "assessment": [
+    {
+      "question": "Câu hỏi trắc nghiệm kiểm tra kiến thức?",
+      "options": [
+        "Lựa chọn A (Sai)",
+        "Lựa chọn B (Sai)",
+        "Lựa chọn C (Đúng)"
+      ],
+      "correct_index": 2,
+      "explanation": "Giải thích tại sao đáp án này đúng.",
+      "difficulty": "Easy | Medium | Hard"
+    }
+  ]
+}

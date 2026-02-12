@@ -1,0 +1,79 @@
+{
+    "id": "empathy_map_b3_say_do_gap",
+    "title": "Module B3: Say - Do Gap & The Camera Test",
+    "domain": "Customer_Understanding",
+    "level": "Advanced",
+    "description": "Tại sao khách hàng nói một đằng làm một nẻo? Module này tập trung vào sự khác biệt giữa Lời nói (Say - Public) và Hành vi thực tế (Do - Private/Objective). (Nguồn: Conan School, NN/g).",
+    "concepts": [
+        {
+            "id": "say_do_gap",
+            "name": "The Say - Do Gap (Khoảng cách Lời nói - Hành vi)",
+            "definition": "Sự chênh lệch giữa điều khách hàng nói (thường bị ảnh hưởng bởi Xã giao/Mong muốn lý tưởng) và điều họ thực sự làm (Phản ánh sự thật/Thói quen).",
+            "misconceptions": [
+                "Khách hàng nói dối. (Sai. Họ thường không ý thức được hành vi của mình hoặc muốn giữ hình ảnh đẹp).",
+                "Lời nói quan trọng hơn hành vi. (Sai. Hành vi mới là bằng chứng xác thực nhất)."
+            ],
+            "examples": [
+                "Say: 'Tôi rất quan tâm đến sức khỏe'. Do: Ăn mì tôm 5 ngày/tuần."
+            ]
+        },
+        {
+            "id": "camera_test",
+            "name": "The Camera Test (Kiểm tra Máy quay)",
+            "definition": "Một quy tắc của Conan School để kiểm chứng dữ liệu 'DOING': Nếu một cái máy quay phim đặt trong phòng không ghi lại được hành động đó, thì đó KHÔNG PHẢI LÀ DOING.",
+            "examples": [
+                "Không đạt: 'Khách hàng cảm thấy bối rối' (Camera không quay được cảm xúc).",
+                "Đạt: 'Khách hàng gãi đầu, nhíu mày và click nút Back 3 lần' (Camera quay được)."
+            ]
+        }
+    ],
+    "principles": [
+        {
+            "id": "p_actions_speak_louder",
+            "statement": "Actions Speak Louder (Hành động to hơn Lời nói)",
+            "explanation": "Khi có mâu thuẫn giữa Say và Do, hãy luôn tin vào Do.",
+            "application": "Nếu họ nói 'Thích' nhưng không 'Mua', kết luận là 'Không thích đủ nhiều' hoặc 'Gặp rào cản', chứ đừng kết luận là 'Thích'."
+        },
+        {
+            "id": "p_objective_observation",
+            "statement": "Quan sát Khách quan",
+            "explanation": "Ghi chép hành vi phải mô tả vật lý (Physical), không mô tả tâm lý (Psychological) ngay bước quan sát.",
+            "application": "Mô tả: 'Họ thở dài' (Đúng). Đừng ghi: 'Họ chán nản' (Sai - đó là Interpretation)."
+        }
+    ],
+    "assessment": [
+        {
+            "question": "Câu nào sau đây vượt qua bài test 'The Camera Test'?",
+            "options": [
+                "Khách hàng đang cân nhắc kỹ lưỡng.",
+                "Khách hàng cầm sản phẩm lên, lật xem tem giá, rồi đặt xuống lại.",
+                "Khách hàng nghĩ rằng giá này quá đắt."
+            ],
+            "correct_index": 1,
+            "explanation": "Chỉ có lựa chọn 2 là hành động vật lý quan sát được. 'Cân nhắc' và 'Nghĩ' là diễn biến nội tâm không nhìn thấy.",
+            "difficulty": "Easy"
+        },
+        {
+            "question": "Bạn thấy khách hàng nói 'Tôi yêu môi trường' nhưng lại vứt rác bừa bãi. Bạn sẽ kết luận gì?",
+            "options": [
+                "Họ là kẻ đạo đức giả.",
+                "Có một 'Say-Do Gap'. Insight có thể là: Họ muốn được NHÌN NHẬN là người tốt (Social Job) nhưng thói quen/hạ tầng chưa ủng hộ hành vi xanh.",
+                "Lời nói của họ là quan trọng nhất."
+            ],
+            "correct_index": 1,
+            "explanation": "Đừng phán xét đạo đức (Interpretation). Hãy nhìn nhận đó là một Say-Do Gap để tìm Insight. Họ có 'Social Job' là giữ hình ảnh, nhưng 'Functional Job' là sự tiện lợi.",
+            "difficulty": "Hard"
+        },
+        {
+            "question": "Tại sao Conan School nhấn mạnh Camera Test?",
+            "options": [
+                "Để làm khó nhân viên.",
+                "Để loại bỏ sự suy diễn chủ quan (Interpretation) ra khỏi dữ liệu quan sát (Data/Doing), đảm bảo Insight được xây trên nền tảng sự thật.",
+                "Để dùng AI phân tích video."
+            ],
+            "correct_index": 1,
+            "explanation": "Tách biệt Data/Doing và Interpretation là kỹ năng sống còn của người làm Insight. Camera Test là công cụ 'chặn cửa' suy diễn.",
+            "difficulty": "Medium"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "customer_understanding": {
+        "jtbd": [
+            {
+                "name": "Clayton Christensen Institute",
+                "url": "https://www.christenseninstitute.org/theory/jobs-to-be-done/",
+                "type": "Original Creator",
+                "justification": "Clayton Christensen là người phổ biến thuật ngữ và xây dựng lý thuyết nền tảng cho JTBD (The Hiring Metaphor)."
+            },
+            {
+                "name": "Strategyn (Tony Ulwick)",
+                "url": "https://strategyn.com/jobs-to-be-done/",
+                "type": "Methodology Pioneer",
+                "justification": "Tony Ulwick là người phát triển Outcome-Driven Innovation (ODI), biến JTBD thành quy trình kỹ thuật định lượng (Data-driven)."
+            }
+        ],
+        "empathy_map": [
+            {
+                "name": "XPLANE (Dave Gray)",
+                "url": "https://xplane.com/the-empathy-map-a-human-centered-tool-for-understanding-how-your-audience-thinks/",
+                "type": "Original Creator",
+                "justification": "Dave Gray là người sáng tạo ra Empathy Map và công bố nó trong cuốn sách Gamestorming."
+            },
+            {
+                "name": "Nielsen Norman Group (NN/g)",
+                "url": "https://www.nngroup.com/articles/empathy-mapping/",
+                "type": "Industry Standard",
+                "justification": "NN/g là tổ chức uy tín nhất thế giới về UX Research (User Experience Research), định nghĩa chuẩn về cách áp dụng Empathy Map trong nghiên cứu người dùng."
+            }
+        ]
+    },
+    "strategy": {
+        "business_model": [
+            {
+                "name": "Strategyzer (Alex Osterwalder)",
+                "url": "https://www.strategyzer.com/",
+                "type": "Original Creator",
+                "justification": "Alex Osterwalder là cha đẻ của Business Model Canvas (BMC) và Value Proposition Canvas."
+            }
+        ]
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "id": "insight_c2_insight_decode",
+    "title": "Module C2: Insight Decode & The 4-Part Formula",
+    "domain": "Customer_Understanding",
+    "level": "Advanced",
+    "description": "Tiêu chuẩn giải mã Insight theo công thức 4 thành phần của Conan School & IDEO. Phân biệt rõ Insight với Data, Doing và Interpretation.",
+    "concepts": [
+        {
+            "id": "insight_definition",
+            "name": "Customer Insight (Sự thật ngầm hiểu)",
+            "definition": "Một sự thật tâm lý ẩn giấu (Hidden Truth) giải thích nguyên nhân gốc rễ của hành vi (Doing), thường chứa đựng một mâu thuẫn (Tension) giữa mong muốn và nỗi sợ.",
+            "misconceptions": [
+                "Insight là Data (Số liệu/Câu nói). (Sai. Data chỉ là nguyên liệu).",
+                "Insight là Interpretation (Suy diễn). (Sai. Suy diễn là đoán mò, Insight là kết luận dựa trên Data + Empathy).",
+                "Insight là Need (Nhu cầu). (Sai. Need là cái họ muốn, Insight là lý do tại sao họ muốn)."
+            ]
+        },
+        {
+            "id": "insight_formula",
+            "name": "The 4-Part Insight Formula (Công thức 4 Thành phần)",
+            "definition": "Một Insight Statement chuẩn phải bao gồm 4 yếu tố: Context + Doing + Tension + Underlying Truth.",
+            "examples": [
+                "1. Context: Trong bối cảnh kinh tế suy thoái.",
+                "2. Doing: Khách hàng vẫn mua khoá học đắt tiền.",
+                "3. Tension: Muốn tiết kiệm tiền NHƯNG lại sợ bị tụt hậu (FOMO).",
+                "4. Underlying Truth: Họ coi việc học là 'khoản đầu tư an toàn' duy nhất khi các kênh khác rủi ro."
+            ]
+        },
+        {
+            "id": "components_deep_dive",
+            "name": "Chi tiết 4 Thành phần",
+            "definition": "Chi tiết từng thành phần trong công thức.",
+            "examples": [
+                "Context (Bối cảnh): Nơi sự việc diễn ra.",
+                "Doing (Hành vi): Cái camera nhìn thấy được (Camera Test).",
+                "Tension (Mâu thuẫn): Cuộc chiến nội tâm (Want vs Fear).",
+                "Underlying Truth (Sự thật): Động lực cốt lõi."
+            ]
+        }
+    ],
+    "principles": [
+        {
+            "id": "p_camera_test",
+            "statement": "The Camera Test (Kiểm tra Máy quay)",
+            "explanation": "Nếu cái máy quay phim không ghi lại được, thì đó không phải là DOING. Đó là suy diễn.",
+            "application": "Đừng viết 'Khách hàng bối rối'. Hãy viết 'Khách hàng gãi đầu và click Back 3 lần'."
+        },
+        {
+            "id": "p_tension_is_king",
+            "statement": "No Tension, No Insight",
+            "explanation": "Nếu không tìm thấy mâu thuẫn (Tension) hay rào cản tâm lý, đó chưa phải là Insight sâu. Nó mới chỉ là quan sát.",
+            "application": "Luôn tìm kiếm chữ 'NHƯNG' trong câu chuyện của khách hàng."
+        }
+    ],
+    "assessment": [
+        {
+            "question": "Thành phần nào sau đây KHÔNG thuộc công thức Insight 4 phần của Conan School?",
+            "options": [
+                "Context (Bối cảnh)",
+                "Solution (Giải pháp)",
+                "Doing (Hành vi)",
+                "Tension (Mâu thuẫn)"
+            ],
+            "correct_index": 1,
+            "explanation": "Công thức là: Context + Doing + Tension + Underlying Truth. Solution là phần sau khi có Insight.",
+            "difficulty": "Easy"
+        },
+        {
+            "question": "Ví dụ nào sau đây đạt chuẩn 'Camera Test' cho phần Doing?",
+            "options": [
+                "Khách hàng cảm thấy lo lắng khi thanh toán.",
+                "Khách hàng dừng lại ở màn hình thanh toán 3 phút, sau đó tắt tab.",
+                "Khách hàng đang phân vân giữa hai lựa chọn."
+            ],
+            "correct_index": 1,
+            "explanation": "Chỉ có lựa chọn 2 là hành động cụ thể mà camera ghi lại được. 'Cảm thấy' (1) và 'Phân vân' (3) là trạng thái nội tâm không nhìn thấy được.",
+            "difficulty": "Medium"
+        },
+        {
+            "question": "Tại sao 'Tension' lại quan trọng trong Insight?",
+            "options": [
+                "Vì nó làm câu chuyện kịch tính hơn.",
+                "Vì nó chỉ ra rào cản tâm lý ngăn cản khách hàng đạt được mục tiêu, nơi sản phẩm có thể can thiệp.",
+                "Vì khách hàng thích than khổ."
+            ],
+            "correct_index": 1,
+            "explanation": "Tension chính là 'nút thắt'. Giải quyết được Tension chính là tạo ra giá trị đột phá (Value Proposition).",
+            "difficulty": "Hard"
+        }
+    ]
+}
