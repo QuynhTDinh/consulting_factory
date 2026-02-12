@@ -14,13 +14,14 @@ app = FastAPI()
 origins = [
     "http://localhost:5173",
     "http://localhost:3000",
+    "https://consultingfactory.vercel.app",
     "https://consulting-factory.vercel.app",
     "https://consulting-factory-git-main-quynhtdinhs-projects.vercel.app"
 ]
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
+    allow_origins=origins, # Explicit origins for security
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

@@ -1,0 +1,11 @@
+{
+    "name": "consulting-factory-monorepo",
+    "version": "1.0.0",
+    "scripts": {
+        "install-client": "cd web && npm install",
+        "build": "cd web && npm install && npm run build && cd .. && rm -rf dist && cp -r web/dist dist"
+    },
+    "engines": {
+        "node": "18.x"
+    }
+}
